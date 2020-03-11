@@ -11,7 +11,7 @@ public class KelpMower : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
-
+		moveHere = GameObject.FindWithTag("Target");
 		agent = GetComponent<NavMeshAgent>();
 	}
 
