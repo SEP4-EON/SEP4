@@ -8,6 +8,8 @@ public class PenguinKiller : MonoBehaviour
 
 	public AudioSource deathScream;
 
+	public AudioSource PortalSound;
+
 	public GameObject penguinManagerGameObject;
 
 	public PenguinManager penguinManagerComponent;
@@ -41,5 +43,12 @@ public class PenguinKiller : MonoBehaviour
 			penguinManagerComponent.CountPenguin(1, true);
 			Destroy(this.gameObject,2f);
 		}
+
+		if (collision.gameObject.CompareTag("PenguinGoal"))
+		{
+			PortalSound.Play();
+			penguinManagerComponent.CountPenguin(1, false);
+		}
 	}
+	
 }
