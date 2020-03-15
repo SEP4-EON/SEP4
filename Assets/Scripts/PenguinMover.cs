@@ -22,11 +22,5 @@ public class PenguinMover : MonoBehaviour
 		agent.SetDestination(moveHere.transform.position);
 
 	}
-	public void OnCollisionEnter(Collision collision)
-	{
-		if (collision.gameObject.CompareTag("Portal"))
-		{
-
-		}
-	}
+	
 }

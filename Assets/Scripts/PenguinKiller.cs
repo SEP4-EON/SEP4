@@ -48,6 +48,7 @@ public class PenguinKiller : MonoBehaviour
 		{
 			PortalSound.Play();
 			penguinManagerComponent.CountPenguin(1, false);
+			Destroy(this.gameObject);
 		}
 	}
 	

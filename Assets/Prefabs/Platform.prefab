@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3670943747805291905}
   - component: {fileID: 4898300132021315474}
   - component: {fileID: 3518277960874334364}
-  - component: {fileID: 4502356192389196016}
   m_Layer: 0
   m_Name: KilleCube (2)
   m_TagString: PenguinKiller
@@ -93,22 +92,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4502356192389196016
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68968888069958013}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1162767155562398961
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +104,6 @@ GameObject:
   - component: {fileID: 8812939413149611072}
   - component: {fileID: 1485988315859198369}
   - component: {fileID: 2287785770676117194}
-  - component: {fileID: 7634252187933498716}
   m_Layer: 0
   m_Name: KilleCube (1)
   m_TagString: PenguinKiller
@@ -202,22 +184,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &7634252187933498716
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1162767155562398961}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &6157228849516393856
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +229,6 @@ GameObject:
   - component: {fileID: 5634477381610337087}
   - component: {fileID: 143015216048684663}
   - component: {fileID: 974708067574092758}
-  - component: {fileID: 6798169461524337568}
   m_Layer: 0
   m_Name: KilleCube
   m_TagString: PenguinKiller
@@ -344,19 +309,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6798169461524337568
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6489876953804867762}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
