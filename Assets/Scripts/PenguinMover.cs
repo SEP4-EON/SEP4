@@ -11,7 +11,7 @@ public class PenguinMover : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-		moveHere = GameObject.FindWithTag("PenguinTarget");
+		moveHere = GameObject.FindWithTag("PenguinGoal");
 		agent = GetComponent<NavMeshAgent>();
 	}
 
